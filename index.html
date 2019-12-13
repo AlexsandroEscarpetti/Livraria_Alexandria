@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script  src="vendors/js/jquery-3.1.1.min.js"></script>
+    <meta name="description" content="loja digital de livros">
+    <meta name="author" content="Alexsandro Junior Escarpetti" />
+    <meta name="copyright" content="© 2019 AlexandriaWord" />
+    <META NAME="KEYWORDS" CONTENT="livros, livraria, Alexandria, qualidade, leitura">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="resource/css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+    </style>
+    <title>Livraria Alexandria</title>
+</head>
+<body>
+
+
+
+
+<div id="container">
+
+<header>
+<h1>Livraria Alexandria</h1>
+<div id="login" class="login_div">
+    <form action="pages/php_pages/test_login.php" id="form_body" method="post" class="from_login">
+        <label for="email" class="label_login">Email/User:</label>
+        <input required type="text" name="email" id="email" class="form_iten"><br>
+        <label for="password" class="label_login">Senha:</label>
+        <input required type="password" name="password" id="password" class="form_iten">
+        <input type="submit" value="Entrar" class="submit"><br>
+        <label for="new_account" class="label_checkbox" onclick="as()">Não possui uma conta ? Cadastra-se</label>
+        <input type="checkbox"id="new_account" style="display:none"><br>
+
+    </form>
+
+
+        </div>
+
+
+
+    <div id="box_sing" class="boxx_sing">
+
+        <div class="formul">
+            <label for="new_account" onclick="as()" class="closed_box"><ion-icon name="close-circle"></ion-icon></label>
+
+            <form action="index.html" method="post">
+                <fieldset>
+
+                    Nome:
+                    <input type="text" maxlength="45" minlength="4" required><br>
+                    Email:
+                    <input type="email" required> <br>
+                    Senha:
+                    <input type="password" minlength="6" required> <br>
+                    Sexo:
+                    <input type="radio" name="gender" value="h">
+                    <input type="radio" name="gender" value="m"> <br>
+                    Nascimento:
+                    <input type="date" required> <br>
+                    <input type="submit" value="cadastrar" id="submit_cadastro">
+                </fieldset>
+            </form>
+        </div>
+</div>
+</header>
+
+</div>
+
+<!-- fim de header ------------------------------------------------------------------------------------------------------>
+
+<input type="checkbox" id="hamburguer">
+<label for="hamburguer" id="label_hamburguer" class="label_hamb">&#9776;</label>
+
+<nav class="menu_nav" id="mn_nv">
+    <ul class="um_lider">
+
+
+
+
+        <li>
+            <input type="checkbox" id="categ_menu">
+           <label for="categ_menu"> <a>categoria</a> </label>
+        <ul class="ul_categ">
+            <li><a href="#">Infantil</a></li>
+            <li><a href="#">Drama</a></li>
+            <li><a href="#">Amor</a></li>
+            <li><a href="#">Ação</a></li>
+            <li><a href="#">Crime</a></li>
+            <li><a href="#">Terror</a></li>
+            <li><a href="#">Suspense</a></li>
+            <li><a href="#">Aventura</a></li>
+            <li><a href="#">Policial</a></li>
+            <li><a href="#">Jogos</a></li>
+
+        </ul>
+        </li>
+
+        <li><a href="pages/alexandria_digitality.html">Visite nossa loja de tecnologias</a></li>
+        <li><a href="#">CDs</a></li>
+        <li><a href="#">Histórico</a></li>
+        <li><a href="#">Sua conta</a></li>
+
+    </ul>
+</nav>
+
+<!-- fim de nav-menu  ------------------------------------------------------------------------------------------------------>
+
+<section class="section_livros">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="livro_enfase" onclick="redirect_pense_python()">
+        <picture>
+            <img src="vendors/images/capas_livros/pense_python.jpg"  class="img_book_enfase" alt="img">
+        </picture>
+        <div>
+            <h3>PROMOÇAO ESPECIAL</h3>
+            <h4>22,49 R$</h4>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="item_livro">
+        <picture>
+            <img src="vendors/images/capas_livros/livro-7ZUv39f4L-174x270.jpg" alt="img">
+        </picture>
+        <div class="info_livro">
+
+        <h2 class="titulo_livros">De repente amor</h2>
+        <h3 class="preco_livro">22,45 R$</h3>
+            <h3>catgoria: Romance,Açao</h3>
+            <p>
+                Um soldado tímido tenta seduzir uma viúva durante uma viagem de trem; uma respeitável senhora vive o drama de perder a parte de baixo de seu mai
+                ô no mar quando a praia está cheia; um leitor oscila entre a realidade densa da ficção e a fantasia erótica da realidade; um míope enfrenta as
+                ambigüidades do uso de óculos; uma esposa descobre o adultério e o mundo no botequim da esquina; um bandido e o sargento que o procura resolvem
+                <a class="mostrar_mais" href="#">Ler mais</a> </p>
+        </div>
+
+
+    </div>
+
+    <div class="item_livro">
+        <picture>
+            <img src="vendors/images/capas_livros/livro-51kMqQphtsL-174x270.jpg" alt="img">
+        </picture>
+        <div class="info_livro">
+
+        <h2 class="titulo_livros">Entre areias do tempo</h2>
+            <h3 class="preco_livro">22,45 R$</h3>
+            <h3>catgoria: Romance,Açao</h3>
+            <p>
+                Um soldado tímido tenta seduzir uma viúva durante uma viagem de trem; uma respeitável senhora vive o drama de perder a parte de baixo de seu mai
+                ô no mar quando a praia está cheia; um leitor oscila entre a realidade densa da ficção e a fantasia erótica da realidade; um míope enfrenta as
+                ambigüidades do uso de óculos; uma esposa descobre o adultério e o mundo no botequim da esquina; um bandido e o sargento que o procura resolvem
+                <a class="mostrar_mais" href="#">Ler mais</a> </p>
+        </div>
+
+
+    </div>
+
+    <div class="item_livro">
+        <picture>
+            <img src="vendors/images/capas_livros/livro-acredite-estou-mentindo-ryan-holiday-em-pdf-epub-mobi-ou-ler-online-174x270.jpg" alt="img">
+        </picture>
+        <div class="info_livro">
+
+            <h2 class="titulo_livros">Acredite estou mentindo</h2>
+            <h3 class="preco_livro">22,45 R$</h3>
+            <h3>catgoria: Romance,Açao</h3>
+            <p>
+                Um soldado tímido tenta seduzir uma viúva durante uma viagem de trem; uma respeitável senhora vive o drama de perder a parte de baixo de seu mai
+                ô no mar quando a praia está cheia; um leitor oscila entre a realidade densa da ficção e a fantasia erótica da realidade; um míope enfrenta as
+                ambigüidades do uso de óculos; uma esposa descobre o adultério e o mundo no botequim da esquina; um bandido e o sargento que o procura resolvem
+                <a class="mostrar_mais" href="#">Ler mais</a> </p>
+        </div>
+
+
+    </div>
+
+    <div class="item_livro">
+        <picture>
+            <img src="vendors/images/capas_livros/livro-beren-e-luthien-j-r-r-tolkien-em-pdf-epub-mobi-ou-ler-online-174x270.jpg" alt="img">
+        </picture>
+        <div class="info_livro">
+
+            <h2 class="titulo_livros">Beren e Luthen</h2>
+            <h3 class="preco_livro">22,45 R$</h3>
+            <h3>catgoria: Romance,Açao</h3>
+            <p>
+                Um soldado tímido tenta seduzir uma viúva durante uma viagem de trem; uma respeitável senhora vive o drama de perder a parte de baixo de seu mai
+                ô no mar quando a praia está cheia; um leitor oscila entre a realidade densa da ficção e a fantasia erótica da realidade; um míope enfrenta as
+                ambigüidades do uso de óculos; uma esposa descobre o adultério e o mundo no botequim da esquina; um bandido e o sargento que o procura resolvem
+                <a class="mostrar_mais" href="#">Ler mais</a> </p>
+        </div>
+
+
+    </div>
+
+    <div class="item_livro">
+        <picture>
+            <img src="vendors/images/capas_livros/livro-Boa-Noite-a-Todos-Edney-Silvestre-Epub-Pdf-Mobi-Ou-Ler-Online_large-174x270.jpg" alt="img">
+        </picture>
+        <div class="info_livro">
+
+            <h2 class="titulo_livros">Boa noite a todos</h2>
+            <h3 class="preco_livro">22,45 R$</h3>
+            <h3>catgoria: Romance,Açao</h3>
+            <p>
+                Um soldado tímido tenta seduzir uma viúva durante uma viagem de trem; uma respeitável senhora vive o drama de perder a parte de baixo de seu mai
+                ô no mar quando a praia está cheia; um leitor oscila entre a realidade densa da ficção e a fantasia erótica da realidade; um míope enfrenta as
+                ambigüidades do uso de óculos; uma esposa descobre o adultério e o mundo no botequim da esquina; um bandido e o sargento que o procura resolvem
+                <a class="mostrar_mais" href="#">Ler mais</a> </p>
+        </div>
+
+
+    </div>
+
+
+    <div class="item_livro">
+        <picture>
+            <img src="vendors/images/capas_livros/livro-Hitler-Hilter-Vol-01-Joachim-Fest-em-PDF-Epub-MOBI-ou-Ler-Online-174x270.jpg" alt="img">
+        </picture>
+        <div class="info_livro">
+
+            <h2 class="titulo_livros">Hitler</h2>
+            <h3 class="preco_livro">22,45 R$</h3>
+            <h3>catgoria: Romance,Açao</h3>
+            <p>
+                Um soldado tímido tenta seduzir uma viúva durante uma viagem de trem; uma respeitável senhora vive o drama de perder a parte de baixo de seu mai
+                ô no mar quando a praia está cheia; um leitor oscila entre a realidade densa da ficção e a fantasia erótica da realidade; um míope enfrenta as
+                ambigüidades do uso de óculos; uma esposa descobre o adultério e o mundo no botequim da esquina; um bandido e o sargento que o procura resolvem
+                <a class="mostrar_mais" href="#">Ler mais</a> </p>
+        </div>
+
+
+    </div>
+
+    <div class="item_livro">
+        <picture>
+            <img src="vendors/images/capas_livros/livro-entre-irmaos-rafael-farias-teixeira-em-pdf-epub-mobi-ou-ler-online-174x270.jpg" alt="img">
+        </picture>
+        <div class="info_livro">
+
+            <h2 class="titulo_livros">Entre irmãos</h2>
+            <h3 class="preco_livro">22,45 R$</h3>
+            <h3>catgoria: Romance,Açao</h3>
+            <p>
+                Um soldado tímido tenta seduzir uma viúva durante uma viagem de trem; uma respeitável senhora vive o drama de perder a parte de baixo de seu mai
+                ô no mar quando a praia está cheia; um leitor oscila entre a realidade densa da ficção e a fantasia erótica da realidade; um míope enfrenta as
+                ambigüidades do uso de óculos; uma esposa descobre o adultério e o mundo no botequim da esquina; um bandido e o sargento que o procura resolvem
+                <a class="mostrar_mais" href="#">Ler mais</a> </p>
+        </div>
+
+
+    </div>
+
+    <div class="item_livro">
+        <picture>
+            <img src="vendors/images/capas_livros/livro-Livro-Joao-e-Maria-Neil-Gaiman-Em-Pdf-Epub-Mobi-ou-Ler-Online-174x270.jpg" alt="ddd">
+        </picture>
+        <div class="info_livro">
+
+            <h2 class="titulo_livros">João e Maria</h2>
+            <h3 class="preco_livro">22,45 R$</h3>
+            <h3>catgoria: Romance,Açao</h3>
+            <p>
+                Um soldado tímido tenta seduzir uma viúva durante uma viagem de trem; uma respeitável senhora vive o drama de perder a parte de baixo de seu mai
+                ô no mar quando a praia está cheia; um leitor oscila entre a realidade densa da ficção e a fantasia erótica da realidade; um míope enfrenta as
+                ambigüidades do uso de óculos; uma esposa descobre o adultério e o mundo no botequim da esquina; um bandido e o sargento que o procura resolvem
+                <a class="mostrar_mais" href="#">Ler mais</a> </p>
+        </div>
+
+
+    </div>
+
+    <div class="item_livro">
+        <picture>
+            <img src="vendors/images/capas_livros/livro-democracia-o-deus-que-falhou-hans-hermann-hoppe-em-pdf-mobi-epub-ou-ler-online-174x270.jpg" alt="img">
+        </picture>
+        <div class="info_livro">
+
+            <h2 class="titulo_livros">Democracia:O deus que falhou</h2>
+            <h3 class="preco_livro">22,45 R$</h3>
+            <h3>catgoria: Romance,Açao</h3>
+            <p>
+                Um soldado tímido tenta seduzir uma viúva durante uma viagem de trem; uma respeitável senhora vive o drama de perder a parte de baixo de seu mai
+                ô no mar quando a praia está cheia; um leitor oscila entre a realidade densa da ficção e a fantasia erótica da realidade; um míope enfrenta as
+                ambigüidades do uso de óculos; uma esposa descobre o adultério e o mundo no botequim da esquina; um bandido e o sargento que o procura resolvem
+                <a class="mostrar_mais" href="#">Ler mais</a> </p>
+        </div>
+
+
+    </div>
+
+    <div class="item_livro">
+        <picture>
+            <img src="vendors/images/capas_livros/livro-invente-alguma-coisa-chuck-palahniuk-em-pdf-epub-mobi-ou-ler-online-174x270.jpg" alt="img">
+        </picture>
+        <div class="info_livro">
+
+            <h2 class="titulo_livros">Invente alguma coisa</h2>
+            <h3 class="preco_livro">22,45 R$</h3>
+            <h3>catgoria: Romance,Açao</h3>
+            <p>
+                Um soldado tímido tenta seduzir uma viúva durante uma viagem de trem; uma respeitável senhora vive o drama de perder a parte de baixo de seu mai
+                ô no mar quando a praia está cheia; um leitor oscila entre a realidade densa da ficção e a fantasia erótica da realidade; um míope enfrenta as
+                ambigüidades do uso de óculos; uma esposa descobre o adultério e o mundo no botequim da esquina; um bandido e o sargento que o procura resolvem
+                <a class="mostrar_mais" href="#">Ler mais</a> </p>
+        </div>
+
+
+    </div>
+
+
+</section>
+
+<!-- fim de nsectio  kivnu  ------------------------------------------------------------------------------------------------------>
+
+<footer>
+    <h4>Rua Satanas Louco,Bairro dos FrukiDeus,345</h4><br>
+    <H4>Corpright @ 2020. Todos os Direitos Reservados</H4>
+    <ion-icon name="logo-facebook"></ion-icon><label>Facebook</label>
+    <ion-icon name="logo-twitter"></ion-icon> <label>Twiter</label>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="resource/js/conf.js"></script>
+
+
+
+
+</body>
+</html>
