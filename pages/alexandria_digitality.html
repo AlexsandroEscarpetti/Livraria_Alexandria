@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script  src="../vendors/js/jquery.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <link rel="stylesheet" href="../resource/css/style.css">
+    <link rel="stylesheet" href="../resource/css/style_alexandria_digitality.css">
+    <meta name="copyright" content="© 2019 AlexandriaWord" />
+    <META NAME="KEYWORDS" CONTENT="digital, digitality, Alexandria, qualidade, tecnologia">
+    <meta name="author" content="Alexsandro Junior Escarpetti" />
+    <meta name="description" content="loja de produtos digitais da AlexandriaWord">
+
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+    </style>
+    <title>Alexandria digitality</title>
+</head>
+<body>
+
+<div id="container">
+
+
+    <header>
+        <h1>Alexandria Digitality</h1>
+        <div id="login" class="login_div">
+            <form action="alexandria_digitality.html" id="form_body" method="post" class="from_login">
+                <label for="email" class="label_login">Email:</label>
+                <input required type="email" name="email" id="email" class="form_iten"><br>
+                <label for="password" class="label_login">Senha:</label>
+                <input required type="password" name="password" id="password" class="form_iten">
+                <input type="button" value="Entrar" class="submit" onclick="messege_erro()"><br>
+                <label for="new_account" class="label_checkbox" onclick="as()">Não possui uma conta ? Cadastra-se</label>
+                <input type="checkbox" id="new_account" style="display:none"><br>
+
+            </form>
+
+
+        </div>
+
+
+
+        <div id="box_sing" class="boxx_sing">
+
+            <div class="formul">
+                <label for="new_account" onclick="as()" class="closed_box"><ion-icon name="close-circle"></ion-icon></label>
+
+                <form action="index.html" method="post">
+                    <fieldset>
+
+                        Nome:
+                        <input type="text" maxlength="45" minlength="4" required><br>
+                        Email:
+                        <input type="email" required> <br>
+                        Senha:
+                        <input type="password" minlength="6" required> <br>
+                        Sexo:
+                        <input type="radio" name="gender" value="h">
+                        <input type="radio" name="gender" value="m"> <br>
+                        Nascimento:
+                        <input type="date" required> <br>
+                        <input type="button" value="cadastrar" id="submit_cadastro" onclick="messege_erro()">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </header>
+
+
+    <input type="checkbox" id="hamburguer">
+    <label for="hamburguer" id="label_hamburguer" class="label_hamb" style="z-index: 999">&#9776;</label>
+
+    <nav class="menu_nav" id="mn_nv" style="z-index: 999">
+        <ul class="um_lider">
+            <li><a href="../index.html">Visite também nossa livraria</a></li>
+            <li><a href="#">CDs</a></li>
+            <li><a href="#">Histórico</a></li>
+            <li><a href="#">Sua conta</a></li>
+
+        </ul>
+    </nav>
+
+<section class="section_ap">
+    <div class="section_prod_it">
+        <div class="descr_it">
+            <h2 class="name_aparelho">MOTO Z 5 PLAY</h2>
+            A família Moto Z é conhecida pela sua versatilidade, isso porque,
+            com ela, você pode transformar o seu smartphone em uma TV digital,
+            uma caixa de som estéreo, um projetor, um console portátil
+            para games e em muitas outras coisas com os moto snaps.
+            Além disso, a linha Moto Z conta com um design sofisticado,
+            bom desempenho e bateria para todo o dia.
+            Transforme o seu dia a dia com os smartphones
+            da linha Moto Z.</div>
+
+        <div class="carrosel">
+            <ul>
+                <li> <img src="../vendors/images/aparelhos/1.1.jpg" alt="aparelho telefone">  </li>
+                <li> <img src="../vendors/images/aparelhos/1.2.jpg" alt="aparelho telefone">  </li>
+                <li> <img src="../vendors/images/aparelhos/1.7.jpg" alt="aparelho telefone">  </li>
+                <li> <img src="../vendors/images/aparelhos/1.8.jpg" alt="aparelho telefone">  </li>
+
+            </ul>
+        </div>
+
+        <div class="butons">
+            <input type="button" value="&larr;" class="esq">
+            <input type="button" value="&rarr;" class="dir">
+
+
+        </div>
+
+        <div class="valor_ap">
+        <h3>1234,56 R$</h3>
+        </div>
+
+    </div>
+
+    <div class="section_prod_it">
+        <div class="descr_it">
+            <h2 class="name_aparelho">XIAOMI REDMO NOTE 8 PRO</h2>
+            25 vezes a quantidade de pixels da sua tela. Amplie para mais detalhes.
+            Suporta gravação de vídeos em 4K, gravações em câmera lenta a 960fps
+            Selfies perfeitas a qualquer momento.
+            O modo retrato permite que você ajuste a intensidade do desfoque de
+            fundo e tire selfies mais profissionais..</div>
+
+        <div class="carrosel RED8">
+            <ul>
+                <li> <img src="../vendors/images/aparelhos/2.1.jpg" alt="aparelho telefone">  </li>
+                <li> <img src="../vendors/images/aparelhos/2.2.jpg" alt="aparelho telefone">  </li>
+                <li> <img src="../vendors/images/aparelhos/2.3.jpg" alt="aparelho telefone">  </li>
+                <li> <img src="../vendors/images/aparelhos/2.4.jpg" alt="aparelho telefone">  </li>
+
+            </ul>
+        </div>
+
+        <div class="butons">
+            <input type="button" value="&larr;" class="esq">
+            <input type="button" value="&rarr;" class="dir">
+
+
+        </div>
+
+        <div class="valor_ap">
+            <h3>1234,56 R$</h3>
+        </div>
+
+    </div>
+
+    <aside class="prop_of_digitality">
+<h4>venha voce também</h4>
+    </aside>
+
+    <div class="section_prod_it sect100">
+        <div class="descr_it">
+            <h2 class="name_aparelho">IPHONE X</h2>
+            O Apple iPhone X é um dos smartphones iOS mais avançados
+            e completos que existem em circulação. Tem um grande display
+            de 5.8 polegadas com uma resolução de 2436x1125 pixel
+            . As funcionalidades oferecidas pelo Apple iPhone X são muitas
+            e inovadoras. Começando pelo LTE 4G que permite a transferência de
+            dados e excelente navegação na internet. Enfatizamos a
+            excelente memória interna de 256 GB mas sem
+            a possibilidade de expansão.</div>
+
+        <div class="carrosel">
+            <ul>
+                <li> <img src="../vendors/images/aparelhos/3.1.jpg" alt="aparelho telefone">  </li>
+                <li> <img src="../vendors/images/aparelhos/3.2.jpg" alt="aparelho telefone">  </li>
+                <li> <img src="../vendors/images/aparelhos/3.3.jpg" alt="aparelho telefone">  </li>
+                <li> <img src="../vendors/images/aparelhos/3.4.jpg" alt="aparelho telefone">  </li>
+
+            </ul>
+        </div>
+
+        <div class="butons aparecer">
+            <input type="button" value="&larr;" class="esq">
+            <input type="button" value="&rarr;" class="dir">
+
+
+        </div>
+
+        <div class="valor_ap">
+            <h3>1234,56 R$</h3>
+        </div>
+
+    </div> <br>
+
+    <div class="mi9" onclick="redirect_xiaomi()">
+        <div>
+
+            <h2>XIAOMI MI 9</h2>
+            O Xiaomi MI 9 é um smartphone Android com características inovadoras que
+            o tornam uma excelente opção para qualquer tipo de utilização, representando um
+            dos melhores dispositivos móveis já feitos. A tela de 6.39 polegadas coloca esse
+            Xiaomi no topo de sua categoria. A resolução também é alta: 2340x1080 pixel.
+            As funcionalidades oferecidas pelo Xiaomi MI 9 são muitas e todas top de linha.
+            Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet,
+            além de conectividade Wi-fi e GPS presente no aparelho. Tem também leitor multimídia, videoconferência,
+            e bluetooth. Enfatizamos a excelente memória interna de 64 GB mas sem a possibilidade de expansão.<br>
+            <h4>1985 R$</h4>
+        </div>
+        <div class="imgs_mi9">
+            <img src="../vendors/images/aparelhos/4.1.jpg" alt="img">
+            <img src="../vendors/images/aparelhos/4.2.jpg" alt="img">
+            <img src="../vendors/images/aparelhos/4.3.jpg" alt="img">
+
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+
+
+    <footer>
+        <h4>Rua Satanas Louco,Bairro dos FrukiDeus,345</h4><br>
+        <H4>Corpright @ 2020. Todos os Direitos Reservados</H4>
+        <ion-icon name="logo-facebook"></ion-icon><label>Facebook</label>
+        <ion-icon name="logo-twitter"></ion-icon> <label>Twiter</label>
+
+    </footer>
+
+</div>
+
+<script src="../vendors/js/jquery.jcarousellite.min.js"></script>
+
+
+
+<script src="../resource/js/conf.js"></script>
+
+    </body>
+    </html>

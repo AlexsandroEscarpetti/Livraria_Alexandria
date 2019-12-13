@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script  src="../vendors/js/jquery.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="../resource/css/style.css">
+    <meta name="copyright" content="© 2019 AlexandriaWord" />
+    <META NAME="KEYWORDS" CONTENT="book, python, programaçao, qualidade, tecnologia">
+    <meta name="author" content="Alexsandro Junior Escarpetti" />
+    <meta name="description" content="livro">
+    <link rel="stylesheet" href="../resource/css/style_mi9.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+    </style>
+    <title>MI9 - Alexandria Digitality</title>
+</head>
+<body>
+
+<header>
+    <h1>Livraria Alexandria</h1>
+    <div id="login" class="login_div">
+        <form action="alexandria_digitality.html" id="form_body" method="post" class="from_login">
+            <label for="email" class="label_login">Email:</label>
+            <input required type="email" name="email" id="email" class="form_iten"><br>
+            <label for="password" class="label_login">Senha:</label>
+            <input required type="password" name="password" id="password" class="form_iten">
+            <input type="button" value="Entrar" class="submit" onclick="messege_erro()"><br>
+            <label for="new_account" class="label_checkbox" onclick="as()">Não possui uma conta ? Cadastra-se</label>
+            <input type="checkbox" id="new_account" style="display:none"><br>
+
+        </form>
+
+
+    </div>
+
+
+
+    <div id="box_sing" class="boxx_sing">
+
+        <div class="formul">
+            <label for="new_account" onclick="as()" class="closed_box"><ion-icon name="close-circle"></ion-icon></label>
+
+            <form action="index.html" method="post">
+                <fieldset>
+
+                    Nome:
+                    <input type="text" maxlength="45" minlength="4" required><br>
+                    Email:
+                    <input type="email" required> <br>
+                    Senha:
+                    <input type="password" minlength="6" required> <br>
+                    Sexo:
+                    <input type="radio" name="gender" value="h">
+                    <input type="radio" name="gender" value="m"> <br>
+                    Nascimento:
+                    <input type="date" required> <br>
+                    <input type="button" value="cadastrar" id="submit_cadastro" onclick="messege_erro()">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</header>
+
+<input type="checkbox" id="hamburguer">
+<label for="hamburguer" id="label_hamburguer" class="label_hamb">&#9776;</label>
+
+<nav class="menu_nav" id="mn_nv">
+    <ul class="um_lider">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">CDs</a></li>
+        <li><a href="#">Histórico</a></li>
+        <li><a href="#">Sua conta</a></li>
+
+    </ul>
+</nav>
+<div id="container">
+
+
+
+
+
+    <div class="a">
+        <img src="../vendors/images/aparelhos/mi9head.png" alt="img">
+    </div>
+    <div class="b"><H3>MI9</H3>
+        <H3>MI9</H3>
+        <H3>MI9</H3>
+        <H3>MI9</H3>
+    </div>
+
+    <div class="a">
+        <img src="../vendors/images/aparelhos/inv.png" alt="img">
+    </div>
+    <h2 class="mi9tit">XIAOMI MI 9</h2>
+    <section class="iconnmi9">
+        <p>
+            O Xiaomi MI 9 é um smartphone Android com características inovadoras que o tornam uma excelente opção para qualquer tipo de utilização, representando um dos melhores dispositivos móveis já feitos. A tela de 6.39 polegadas coloca esse Xiaomi no topo de sua categoria.
+        </p>
+
+
+
+
+        <div class="it_icon">
+
+            <div><ion-icon name="finger-print"></ion-icon></div><h3>Digital na tela</h3>
+        </div>
+
+        <div class="it_icon">
+            <div><ion-icon name="finger-print"></ion-icon></div><h3>Camera 12 MP</h3>
+        </div>
+
+        <div class="it_icon">
+            <div><ion-icon name="finger-print"></ion-icon></div><h3>Imagens full HD</h3>
+        </div>
+
+        <div class="it_icon">
+            <div><ion-icon name="finger-print"></ion-icon></div><h3>Bateria com 3300 mAh</h3>
+        </div>
+
+        <div class="it_icon">
+            <div><ion-icon name="finger-print"></ion-icon></div><h3>Audio altamente potente</h3>
+        </div>
+
+        <div class="it_icon">
+            <div><ion-icon name="finger-print"></ion-icon></div><h3>Desempenho com Qualcomm Snapdragon 855</h3>
+        </div>
+
+    </section>
+
+    <section class="info_mi9">
+        <h3>Marca:
+            Xiaomi</h3>
+        <h3>Sistema operacional:
+            Android.</h3>
+        <h3>Tamanho da tela:
+            Tela de 6,39 polegadas</h3>
+        <h3>Atributos de segurança:
+            Impressão digital</h3>
+        <h3>Resolução da câmera traseira:
+            12 megapixels</h3>
+
+        <h3>Interface de usuário:
+            MIUI 10</h3>
+        <h3>Assistente Inteligente:
+            Google Assistant</h3>
+        <h3>Navegação:
+            GPS, A-GPS, GLONASS, BeiDou, Galileo</h3>
+        <h3>Resolução do Sensor:
+            48 Megapixéis</h3>
+        <h3>Tecnologia de Carregamento Rápido:
+            Qualcomm Quick Charge 4.0+</h3>
+        <h3>Resolução do Visor:
+            2340 x 1080 pixeis</h3>
+        <h3>RAM:
+            6 GB - LPDDR4X SDRAM</h3>
+        <h3>Capacidade interna de memória:
+            128 GB</h3>
+
+    </section>
+
+    <div class="front_and_back_mi9">
+        <h5>Toque na tela</h5>
+        <input type="checkbox" id="fr_bk" style="display: none">
+
+        <label for="fr_bk" class="label_frbk1"><picture> <img src="../vendors/images/aparelhos/mi9frente.jpg" alt="img"></picture></label>
+        <label for="fr_bk" class="label_frbk2"><picture> <img src="../vendors/images/aparelhos/mi9tras.jpg" alt="img"></picture></label>
+    </div>
+
+
+    <footer>
+        <h4>Rua Satanas Louco,Bairro dos FrukiDeus,345</h4><br>
+        <H4>Corpright @ 2020. Todos os Direitos Reservados</H4>
+        <ion-icon name="logo-facebook"></ion-icon><label>Facebook</label>
+        <ion-icon name="logo-twitter"></ion-icon> <label>Twiter</label>
+    </footer>
+
+
+
+
+
+
+
+    <script src="../resource/js/conf.js"></script>
+
+</div>
+</body>
+</html>
