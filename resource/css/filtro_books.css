@@ -1,0 +1,48 @@
+h2 {
+    background-color: #438c25;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    background-color: #a4844b;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+table, th, td {
+    border: 1px solid gray;
+    padding: 2px;
+    color: black;
+    background-color: #a4844b;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+@media (max-width: 600px) {
+    table{display: none}
+
+} {
+
+}
+@media (min-width: 800px) {
+    .esp{
+        display: none;
+    }
+
+
+
+}

@@ -1,0 +1,130 @@
+body{
+    background-image:  url("../../vendors/images/body_book_python.png");
+}
+
+
+.capa_python{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url("../../vendors/images/background_book_python.jpg");
+    border-radius: 20px;
+}
+
+.sinopse_book_python{
+    background-color: rgba(0,2,300,0.6);
+    color: #eaf4ff;
+}
+
+.sinopse_book_python h2{
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    color: greenyellow;
+}
+
+.sinopse_book_python p{
+    font-size: 19.4px;
+}
+
+
+@media (min-width: 900px) {
+
+    .capa_python{
+        float: left;
+        margin-right: 10px;
+    }
+
+    .sinopse_book_python p{
+        font-size: 19.4px;
+        height: 50vh;
+
+    }
+    .sinopse_book_python:hover{
+        background-color: rgba(0,2,300,0.85);
+
+
+    }
+
+
+}
+
+.info_book_python{
+    background-color: rgba(0,300,0,0.8);
+    color: black;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+@media (min-width: 900px) {
+    .info_book_python:hover{
+        background-color: rgba(0,300,0,0.95);
+    }
+
+}
+
+.sobre_autor{
+    background-color: rgba(100,100,0,0.6);
+    font-size: 28px;
+    color: #eaf4ff;
+    margin-top: 21px;
+}
+
+
+.sobre_autor:hover
+{
+    background-color: rgba(100,100,0,0.9);
+}
+
+
+
+
+
+
+.sobre_autor h2{
+    text-align: center;
+    color: aqua;
+}
+
+@media (min-width: 900px) {
+    .info_book_python{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre_autor{
+        width: 100%;
+        float: right;
+        margin-bottom: 20px;
+    }
+}
+
+footer{
+    background-color: purple;
+    width: 100%;
+}
+
+
+@media (max-width: 900px) {
+    .ZHamb_fixo{
+        position: fixed;
+        top: 2px;}
+
+    .ZHamb_fixod{
+        position: fixed;
+        top: 50px;}
+
+    .Menu_fixo{
+        position: fixed;
+        top: 2px;}
+
+
+    .normal{
+        position: static;
+    }
+
+
+}

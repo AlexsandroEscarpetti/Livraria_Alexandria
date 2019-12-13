@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+}
+
+.section_ap{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section_prod_it{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 21px;
+}
+
+
+
+@media (min-width: 920px) {
+
+    .section_prod_it{
+        width: 48%;
+        margin-left: 1%;
+    }
+
+    .sect100{
+        width: 100%;
+    }
+
+
+    .butons{
+        display: none;
+    }
+
+}
+
+.carrosel{
+    width: 94vw;
+    height:34vh;
+    overflow: hidden;
+}
+
+.name_aparelho{
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    border-radius: 30%;
+}
+
+.descr_it{
+    background-color: chartreuse;
+    color: red;
+    border-radius: 8px;
+}
+.carrosel ul{
+    padding-inline-start: 0;
+    width: 1000%;
+    display: flex;
+
+}
+
+.carrosel ul, .carrosel ul li{
+    list-style: none;
+}
+
+
+.carrosel ul li img{
+    width:93vw;
+    height:260px;
+}
+
+
+
+@media (min-width: 920px) {
+    .carrosel ul li img {
+        width: auto;
+        height: 200px;
+    }
+}
+
+.butons{
+    display: flex;
+    justify-content: space-around;
+    width: 95vw;
+}
+
+@media (min-width: 920px) {
+
+    .butons{
+        display: none;
+    }
+
+    .section_ap{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .aparecer{
+        display: flex;
+    }
+
+
+}
+
+
+
+
+.butons *{
+    font-size: 60px;
+    border-radius: 50%;
+    background-color: orangered;
+    color: deepskyblue;
+}
+
+.butons *:hover{
+    background-color: black;
+}
+
+.valor_ap{
+    font-size: 50px;
+    color: mediumblue;
+    background-color: darkred;
+    border-radius: 21px;
+    margin-top: 20px;
+}
+
+.prop_of_digitality{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 29vh;
+    margin-top: 20px;
+    background-image:
+            linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+            url("../../vendors/images/ff/stackoverflow.png");
+
+}
+
+.prop_of_digitality *{
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 55px;
+}
+
+
+.mi9{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: orangered;
+}
+
+.mi9 h2{
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+}
+
+
+
+.mi9 div h4{
+    text-align: center;
+    color: bisque;
+    font-size: 82px;
+    background-color: deepskyblue;
+}
+
+
+@media (min-width: 920px) {
+    .mi9 div h4{
+        text-align: center;
+        color: bisque;
+        font-size: 82px;
+        background-color: orangered;
+    }
+
+}
+
+.imgs_mi9{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgs_mi9 *{
+
+    width: auto;
+    height: 18vh;
+}
+
+aside{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    BACKGROUND-COLOR: darkblue;
+}
+

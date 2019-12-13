@@ -1,0 +1,177 @@
+.a{
+    width: 46%;
+}
+
+.a img{
+    width: 100%;
+}
+
+
+.b{
+    width: 8%;
+    height: 140px;
+    DISPLAY: flex;
+    JUSTIFY-CONTENT: center;
+    ALIGN-ITEMS: center;
+    flex-wrap: wrap;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 500px) {
+    .b{
+        height: 200px;
+    }
+
+}
+
+
+@media (min-width: 750px) {
+    .b {
+        height: 316px;
+    }
+}
+
+@media (min-width: 990px) {
+    .b {
+        font-size: 30px;
+        height: 405px;
+    }
+}
+
+
+@media (min-width: 990px) {
+    .b {
+        height: 536px;
+    }
+}
+
+.mi9tit{
+    text-align: center;
+    width: 100%;
+    background-color: blueviolet;
+    border-radius: 70px;
+    margin-bottom: 19px;
+    margin-top: 19px;
+}
+
+
+@media (min-width: 1000px) {
+    .mi9tit{
+        font-size: 82px;
+    }
+}
+
+
+
+
+
+
+
+
+.iconnmi9{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.it_icon{
+    width: 50%;
+    background-color: blue;
+    border: 5px solid;
+    text-align: center;
+}
+
+.iconnmi9 p{
+    background-color: rgba(200,0,00,0.4);
+    margin-bottom: 15px;
+}
+
+@media (min-width: 1000px) {
+    .it_icon{width: 33.33%}
+}
+
+.info_mi9{
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 19px;
+    margin-top: 18px;
+}
+
+.front_and_back_mi9{
+    width: 100%;
+    background-color: red;
+    margin-bottom: 13px;
+}
+
+
+.front_and_back_mi9 picture{
+    width: 100%;
+    height: 70%;
+}
+
+
+.front_and_back_mi9 picture img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.front_and_back_mi9 h5{
+    font-size: 26px;
+}
+
+
+
+@media (min-width: 850px) {
+    .front_and_back_mi9 picture img {
+        width: auto;
+        height: auto;
+    }
+
+
+    .front_and_back_mi9 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 820px) {
+    .sinopse_book_python {
+        background-color: rgba(0,2,300,0.9);
+    }
+
+}
+
+
+
+.label_frbk2{
+    display: none;
+}
+
+#fr_bk:checked ~ .label_frbk2{
+    display: inline;
+}
+
+#fr_bk:checked ~ .label_frbk1{
+    display: none;
+}
+
+
+
+footer{
+    margin-bottom: 18px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+

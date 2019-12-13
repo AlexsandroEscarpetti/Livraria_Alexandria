@@ -1,0 +1,30 @@
+html {
+    overflow: hidden;
+}
+body{
+    display: flex;
+    background-image: url("../../vendors/images/erro.png");
+    align-items: center;
+    justify-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+div{
+    background-color:rgba(296,20,20,0.7);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+div h3{
+    color: black;
+}
+
+h4{
+    color: black;
+    font-size: 45px;
+}

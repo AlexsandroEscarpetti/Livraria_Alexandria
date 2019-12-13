@@ -1,0 +1,135 @@
+body{
+    background-color: #a4844b;
+}
+
+header{
+    height: 13vh;
+}
+
+.menu_principal_intranet{
+    width: 100%;
+    height: 30vh;
+    background-color: #a4844b;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.bt_menu_principal{
+    border: solid 1px black;
+    width: 33.33333333333%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 27%;
+    background-color: burlywood;
+}
+
+
+
+.bt_menu_principal h2{
+    font-size: 15px;
+}
+
+
+
+
+.enchendo_linguiça h4{
+    font-size: 8vw;
+
+}
+
+.enchendo_linguiça h5{
+    font-size: 11vw;
+
+}
+
+
+@media (min-width: 775px) {
+
+
+    .enchendo_linguiça h4{
+        font-size: 3vw;
+    }
+
+
+    .enchendo_linguiça h5{
+        font-size: 5.4vw;
+    }
+
+    .bt_menu_principal{
+        border: solid 5px black;
+        border-radius: 20px;
+        cursor: pointer;}
+
+
+
+
+
+    .bt_menu_principal *{
+    font-size: 50px}
+}
+
+
+.main_item{
+    width: 100vw;
+    height: 58vh;
+    display: flex;
+    background-color: burlywood;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    overflow: hidden;
+}
+
+.enchendo_linguiça{
+    width: 100vw;
+    height: 41vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+
+
+
+.anul{
+    display: none;
+}
+
+
+.bt_menu_principal:hover{
+    background-color: rgba(200,200,1,0.3);
+    color: aqua;
+
+}
+
+.log{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: space-around;color: #7caaff;
+    font-size: 20px;
+    background-color:#438c25;
+}
+
+.log a{
+    list-style: none;
+    color: red;
+    text-decoration: none;
+}
+
+.vizu_books{
+    background-color: #eaf4ff;
+    height: 90%;
+    width: 100%;
+}
